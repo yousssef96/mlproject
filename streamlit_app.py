@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 
-API_URL = st.secrets["url"]
+API_URL = "http://studentperformance-env-1.eba-newffas4.us-east-1.elasticbeanstalk.com/predict"
 
 st.set_page_config(page_title="Student Performance Predictor", layout="centered")
 
