@@ -18,7 +18,7 @@ with col1:
     race_ethnicity = st.selectbox("Race/Ethnicity", ["group A", "group B", "group C", "group D", "group E"])
     parental_level_of_education = st.selectbox("Parental Education", [
         "some high school", "high school", "some college", 
-        "associate's degree", "batchelor's degree", "master's degree"
+        "associate's degree", "bachelor's degree", "master's degree"
     ])
 
 with col2:
